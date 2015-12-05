@@ -10,5 +10,5 @@ RUN update-rc.d apache2 defaults
 RUN update-rc.d mysql defaults
 RUN mkdir /var/www/public
 RUN mkdir /var/www/logs
-RUN 
+
 EXPOSE 80 3306
